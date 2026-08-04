@@ -87,22 +87,23 @@ body {
 
     /* text colors */
     --text-0: #ffffff;
-    --text-1: #1a1b26;
-    --text-2: #343b58;
-    --text-3: #565a6e;
-    --text-4: #787c99;
-    --text-5: #9699a3;
+    --text-1: #181d2b;
+    --text-2: #2e3652;
+    --text-3: #505972;
+    --text-4: #717a97;
+    --text-5: #8b94ad;
 
-    /* backgrounds */
-    --bg-1: #c8ccd7;
-    --bg-2: #d5d6db;
-    --bg-3: #e1e2e7;
-    --bg-4: #f6f7fb;
+    /* backgrounds (cooler & slightly dimmer) */
+    --bg-1: #bcc6d8;
+    --bg-2: #ccd6e6;
+    --bg-3: #dce5f2;
+    --bg-4: #eef3fa;
 
-    --hover: rgba(46,125,233,.10);
-    --active: rgba(46,125,233,.18);
-    --active-2: rgba(46,125,233,.24);
-    --message-hover: rgba(0,0,0,.035);
+    /* interaction */
+    --hover: rgba(46, 125, 233, 0.08);
+    --active: rgba(46, 125, 233, 0.15);
+    --active-2: rgba(46, 125, 233, 0.22);
+    --message-hover: rgba(24, 34, 58, 0.045);
 
     /* accents */
     --accent-1: var(--blue-1);
@@ -145,8 +146,8 @@ body {
     --offline: var(--text-4);
 
     /* borders */
-    --border-light: rgba(52,59,88,.10);
-    --border: rgba(52,59,88,.16);
+    --border-light: rgba(52, 59, 88, 0.12);
+    --border: rgba(52, 59, 88, 0.20);
     --border-hover: var(--accent-2);
     --button-border: transparent;
 
